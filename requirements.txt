@@ -1,0 +1,57 @@
+paddleocr==2.3.0.1
+python-snap7==1.1
+visualdl==2.2.2
+pyqt6==6.2.1
+imgaug==0.4.0
+
+# ----------------------Ignored dependent packages---------------------
+paddlepaddle-gpu==2.1.3.post112
+qpt==1.0b1.dev11
+wheel==0.36.2
+
+# ----------------------Ignored sub dependent packages---------------------
+
+# -----Dependencies of paddleocr
+lmdb
+scikit-image==0.17.2
+numpy
+visualdl
+premailer
+pyclipper
+tqdm
+python-levenshtein
+lxml
+openpyxl
+opencv-contrib-python==4.4.0.46
+shapely
+imgaug==0.4.0
+
+# -----Dependencies of visualdl
+numpy
+shellcheck-py
+flask>=1.1.1
+bce-python-sdk
+pandas
+requests
+flake8>=3.7.9
+protobuf>=3.11.0
+six>=1.14.0
+pillow>=7.0.0
+pre-commit
+matplotlib
+flask-babel>=1.0.0
+
+# -----Dependencies of pyqt6
+pyqt6-sip<14,>=13.1
+pyqt6-qt6>=6.2.1
+
+# -----Dependencies of imgaug
+scipy
+imageio
+opencv-python
+pillow
+numpy>=1.15
+six
+scikit-image>=0.14.2
+matplotlib
+shapely
